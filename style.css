@@ -151,11 +151,6 @@ p {
 ========================= */
 
 @media (min-width: 48rem) {
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .product-card {
     display: flex;
     max-width: 600px;
