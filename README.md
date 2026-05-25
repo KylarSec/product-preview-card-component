@@ -1,97 +1,44 @@
-# Frontend Mentor - Product Preview Card Component Solution
+# Frontend Mentor - Product Preview Card Component
 
-This is my solution to the Product Preview Card Component challenge on [Frontend Mentor](https://www.frontendmentor.io?utm_source=chatgpt.com).
-I built this project to practice responsive layouts, Flexbox, typography, spacing, and mobile-first development using HTML and CSS.
-
----
+This is my solution to the Product Preview Card Component challenge from Frontend Mentor.
 
 ## Overview
 
-### Screenshot
+### Desktop Preview
 
-#### Desktop Preview
+![Desktop Screenshot](./images/screenshot/desktop.jpg)
 
-![Desktop Preview](./images/screenshot/desktop.jpg)
+### Mobile Preview
 
-#### Mobile Preview
+![Mobile Screenshot](./images/screenshot/mobile.jpg)
 
-## ![Mobile Preview](./images/screenshot/mobile.jpg)
+## Links
 
-### Links
+- Live Site: https://cute-stardust-661fa1.netlify.app/
+- Repository: https://github.com/KylarSec/product-preview-card-component
 
-- Live Site URL
+## Built With
 
-```
-https://cute-stardust-661fa1.netlify.app/
-```
-
-- Solution URL
-
-```md id="q2k5wr"
-https://www.frontendmentor.io/your-solution-link
-```
-
----
-
-## My Process
-
-### Built With
-
-- Semantic HTML5
-- CSS custom properties
+- HTML5
+- CSS3
 - Flexbox
-- Mobile-first workflow
-- Responsive design
-- Media queries
+- Mobile-First Workflow
+- Responsive Design
+- CSS Variables
+- Media Queries
 
----
+## What I Learned
 
-### What I Learned
+Through this project, I practiced:
 
-This project helped me improve my understanding of:
-
-- Building responsive layouts using a mobile-first approach
+- Building responsive card layouts using a mobile-first approach
+- Creating desktop layouts with media queries
 - Using Flexbox for alignment and spacing
 - Working with `rem` units instead of fixed pixels
-- Creating desktop layouts with media queries
 - Switching images between mobile and desktop layouts
-- Improving visual hierarchy using typography and spacing
-
-Example of the responsive desktop layout:
-
-```css id="f7p3vk"
-@media (min-width: 48rem) {
-  .product-card {
-    display: flex;
-    max-width: 600px;
-  }
-}
-```
-
----
-
-### Continued Development
-
-Going forward, I want to keep improving:
-
-- Responsive design skills
-- Layout precision
-- Typography consistency
-- Writing cleaner and more scalable CSS
-- Building reusable UI components
-
----
+- Improving typography hierarchy and spacing consistency
+- Structuring cleaner and more organized CSS
 
 ## Author
 
-- Frontend Mentor
-
-```md id="j6q1xn"
-https://www.frontendmentor.io/profile/yourusername
-```
-
-- GitHub
-
-```md id="m2v7zp"
-https://github.com/yourusername
-```
+- GitHub: KylarSec
