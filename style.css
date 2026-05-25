@@ -41,16 +41,18 @@ p {
   color: var(--Grey);
 }
 
-.info-section h1 {
+.product-title {
   font-family: "Fraunces", sans-serif;
   line-height: 1;
   font-size: 1.59rem;
   font-weight: 700;
-  padding: 1rem 0.125rem;
+  padding: 1rem 0;
 }
 
 .price-box h1 {
+  font-family: "Fraunces", sans-serif;
   color: var(--Green-500);
+  padding: 1rem 0.125rem;
 }
 
 .price-box small {
@@ -108,7 +110,7 @@ p {
 
 .cart-btn {
   width: 100%;
-  padding: 15px;
+  padding: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,6 +121,7 @@ p {
   color: var(--White);
   gap: 0.5rem;
   transition: background-color 0.2s ease;
+  margin-top: 0.5rem;
 }
 
 .cart-btn img {
@@ -141,4 +144,40 @@ p {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* =========================
+   DESKTOP
+========================= */
+
+@media (min-width: 48rem) {
+  .product-card {
+    display: flex;
+    max-width: 600px;
+  }
+
+  .image-section,
+  .info-section {
+    width: 50%;
+  }
+
+  .image-section img {
+    content: url("./images/image-product-desktop.jpg");
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .info-section {
+    padding: 2rem;
+  }
+
+  .product-title {
+    font-size: 2rem;
+    padding: 1.4rem 0;
+  }
+
+  .price-box h1 {
+    padding: 1.4rem 0;
+  }
 }
