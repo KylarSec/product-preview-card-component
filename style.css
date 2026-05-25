@@ -1,0 +1,144 @@
+/* =========================
+   RESET
+========================= */
+
+:root {
+  /* Primary */
+
+  --Green-500: hsl(158, 36%, 37%);
+  --Green-700: hsl(158, 42%, 18%);
+
+  /* Neutral */
+
+  --Black: hsl(212, 21%, 14%);
+  --Grey: hsl(228, 12%, 48%);
+  --Cream: hsl(30, 38%, 92%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================
+   TYPOGRAPHY
+========================= */
+
+p {
+  font-size: 0.875rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  color: var(--Grey);
+}
+
+.info-section > span {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  letter-spacing: 5px;
+  color: var(--Grey);
+}
+
+.info-section h1 {
+  font-family: "Fraunces", sans-serif;
+  line-height: 1;
+  font-size: 1.59rem;
+  font-weight: 700;
+  padding: 1rem 0.125rem;
+}
+
+.price-box h1 {
+  color: var(--Green-500);
+}
+
+.price-box small {
+  text-decoration: line-through;
+  color: var(--Grey);
+}
+
+.cart-btn span {
+  font-weight: 700;
+  font-size: 0.8rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* =========================
+   LAYOUT
+========================= */
+
+.container {
+  min-height: 100vh;
+  padding: 50px 10px;
+  background-color: var(--Cream);
+}
+
+/* =========================
+   PRODUCT CARD
+========================= */
+
+.product-card {
+  width: 100%;
+  max-width: 350px;
+  background-color: var(--White);
+  border-radius: 10px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.image-section img {
+  display: block;
+  width: 100%;
+}
+
+.info-section {
+  padding: 1.5rem;
+}
+
+.price-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.cart-btn {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  background-color: var(--Green-500);
+  color: var(--White);
+  gap: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.cart-btn img {
+  width: 0.8rem;
+  height: 0.8rem;
+  font-weight: 700;
+}
+
+.cart-btn:hover {
+  background-color: var(--Green-700);
+  cursor: pointer;
+}
+/* =========================
+    ATTRIBUTION STYLES
+  ========================= */
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
